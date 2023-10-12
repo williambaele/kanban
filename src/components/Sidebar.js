@@ -6,10 +6,10 @@ const Sidebar = ({ activeMenu, onMenuClick, onAddBoardClick }) => {
   const menu = ["Marketing", "HR", "Financial"];
 
   return (
-    <div className="bg-[#2C2C38] h-screen w-60 py-10 text-white justify-around">
-      <div className="h-full flex flex-col">
-        <h2 className="text-2xl font-bold px-6">KANBAN</h2>
-        <div className="w-full grow py-10 space-y-4 flex flex-col pr-2">
+    <div className="hidden md:block bg-[#2C2C38] h-screen w-60 py-10 text-white justify-around">
+      <div className="flex flex-col h-full">
+        <h2 className="px-6 text-2xl font-bold">KANBAN</h2>
+        <div className="flex flex-col w-full py-10 pr-2 space-y-4 grow">
           {menu.map((item, index) => (
             <div
               key={index}
