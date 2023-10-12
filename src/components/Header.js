@@ -9,7 +9,7 @@ const Header = ({ activeMenu }) => {
       <div className="flex items-center gap-2">
         <div className="bg-[#645FC6] flex gap-1 items-center p-2 rounded-xl font-bold cursor-pointer">
           <LuPlus />
-          <p className="hidden md:block">New column</p>
+          <p className="hidden md:block">New task</p>
         </div>
         <LuMoreVertical size={24} className="cursor-pointer" />
       </div>
