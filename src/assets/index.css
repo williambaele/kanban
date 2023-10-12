@@ -8,7 +8,8 @@
 h2,
 a,
 p,
-button {
+button,
+label {
   font-family: GeneralSans-Regular;
 }
 body {
