@@ -5,7 +5,10 @@
   font-family: "GeneralSans-Regular";
   src: url(../fonts/GeneralSans-Regular.otf);
 }
-h2 {
+h2,
+a,
+p,
+button {
   font-family: GeneralSans-Regular;
 }
 body {
