@@ -2,7 +2,7 @@
 import React from "react";
 import { LuLayoutDashboard } from "react-icons/lu";
 import { LuUser2 } from "react-icons/lu";
-import LogoSVG from "../assets/logo.svg";
+// import LogoSVG from "../assets/logo.svg";
 
 const Sidebar = ({ activeMenu, onMenuClick, onAddBoardClick }) => {
   const menu = ["Marketing", "HR", "Financial"];
