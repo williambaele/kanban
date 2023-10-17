@@ -69,7 +69,7 @@ const Login = () => {
                       type="submit"
                       className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-[#645FC6] text-white hover:bg-[#645FC6]/80 focus:outline-none  transition-all text-sm "
                     >
-                      Sign in
+                      Log in
                     </button>
                     {error && <p className="text-red-400">{error}</p>}
                   </div>
